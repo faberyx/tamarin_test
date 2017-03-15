@@ -21,7 +21,7 @@ namespace Test
 			{
 				var webserver = new RestCall();
 
-				var response = webserver.Request(Constants.REST_SERVER_ADDR);
+				var response = webserver.Request(Constants.REST_CALL_TEST);
 
 				if (response == "OK")
 					DisplayAlert("Ok", "Webserver ok", "OK");
